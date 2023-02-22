@@ -23,7 +23,9 @@ public class Store7 {
     }
 
     public String toString(){
-        return "This store sells "  + productType + " at a price of " + price + ".";
+
+        return "This store sells "  + productType + " at a price of " +
+                price + ".";
     }
 
     // main method
