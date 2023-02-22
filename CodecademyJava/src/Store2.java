@@ -23,6 +23,5 @@ public class Store2 {
         lemonadeStand2.advertise2();
         lemonadeStand2.advertise2();
 
-
     }
 }
