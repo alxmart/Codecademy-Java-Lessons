@@ -1,4 +1,5 @@
 public class Order2 {
+
     boolean isFilled;
     double billAmount;
     String shipping;
@@ -25,8 +26,13 @@ public class Order2 {
 
     public double calculateShipping() {
         // declare conditional statement here
-
-        return 0;
+        if (shipping == "Regular") {
+            return 0;
+        } else if(shipping == "Express") {
+            return 1.75;
+        } else {
+            return 0.50;
+        }
 
     }
 
