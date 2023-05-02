@@ -5,6 +5,7 @@
 //=============================================================
 
 // Define your Question class here:
+
 public class Question {
 
     int correctAnswer;
