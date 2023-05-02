@@ -1,4 +1,4 @@
-public class Coffee {
+public class Coffee_While {
 
     public static void main(String[] args) {
 
