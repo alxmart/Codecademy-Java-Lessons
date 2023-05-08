@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-class ToDos2 {
+class ToDos3 {
 
     public static void main(String[] args) {
 
@@ -23,15 +23,16 @@ class ToDos2 {
         poirotsToDos.add("call all suspects together");
         poirotsToDos.add("reveal the truth of the crime");
 
-        System.out.println("Sherlock's third to-do:");
-        // Print Sherlock's third to-do:
-        System.out.println(sherlocksToDos.get(2));
+        // Set each to-do below:
+        sherlocksToDos.set(1,"listen to Dr. Watson for amusement");
+        poirotsToDos.set(3,"listen to Captain Hastings for amusement");
 
 
-        System.out.println("\nPoirot's second to-do:");
-        // Print Poirot's second to-do:
-        System.out.println(poirotsToDos.get(1));
 
+        System.out.println("Sherlock's to-do list:");
+        System.out.println(sherlocksToDos.toString() + "\n");
+        System.out.println("Poirot's to-do list:");
+        System.out.println(poirotsToDos.toString());
     }
 
 }
