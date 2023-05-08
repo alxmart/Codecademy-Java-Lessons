@@ -5,6 +5,7 @@
 //=============================================================
 
 // Define your Question class here:
+
 public class Question {
 
     int correctAnswer;
@@ -34,7 +35,14 @@ public class Question {
         correctAnswer = correctAnswerIndex;
         playerAnswer = -1;
     }
+
+    boolean public void isCorrect() {
+
+
+
 }
+
+
 //=================================================================
 //   AndroidOS.java
 //===================================================================
