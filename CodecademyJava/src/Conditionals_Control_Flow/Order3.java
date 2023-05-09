@@ -1,3 +1,5 @@
+package Conditionals_Control_Flow;
+
 public class Order3 {
     boolean isFilled;
     double billAmount;
@@ -19,7 +21,7 @@ public class Order3 {
             System.out.println("Shipping");
             System.out.println("Shipping cost: " + calculateShipping());
         } else {
-            System.out.println("Order not ready");
+            System.out.println("Conditionals_Control_Flow.Order not ready");
         }
     }
 

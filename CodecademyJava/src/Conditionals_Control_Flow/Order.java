@@ -1,3 +1,5 @@
+package Conditionals_Control_Flow;
+
 public class Order {
 
     public static void main(String[] args) {
@@ -15,7 +17,7 @@ public class Order {
         if (isFilled) {
             System.out.println("Shipping");
         } else {
-            System.out.println("Order not ready");
+            System.out.println("Conditionals_Control_Flow.Order not ready");
         };
     }
 

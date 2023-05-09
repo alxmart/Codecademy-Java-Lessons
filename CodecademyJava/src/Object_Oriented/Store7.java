@@ -1,3 +1,5 @@
+package Object_Oriented;
+
 public class Store7 {
     // instance fields
     String productType;
