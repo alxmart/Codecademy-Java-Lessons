@@ -18,6 +18,7 @@ class Project_PrimeDirective {
                 return false;
             }
         }
+
         return true;
     }
 
