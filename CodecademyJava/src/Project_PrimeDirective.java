@@ -4,6 +4,7 @@ import java.util.ArrayList;
 class Project_PrimeDirective {
 
     // Add your methods here:
+
     public boolean isPrime(int number){
 
         if (number == 2) {
