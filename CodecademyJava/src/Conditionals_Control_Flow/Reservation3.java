@@ -1,3 +1,5 @@
+package Conditionals_Control_Flow;
+
 public class Reservation3 {
     int guestCount;
     int restaurantCapacity;
@@ -17,10 +19,10 @@ public class Reservation3 {
 
     public void confirmReservation() {
         if (restaurantCapacity >= guestCount && isRestaurantOpen) {
-            System.out.println("Reservation confirmed");
+            System.out.println("Conditionals_Control_Flow.Reservation confirmed");
             isConfirmed = true;
         } else {
-            System.out.println("Reservation denied");
+            System.out.println("Conditionals_Control_Flow.Reservation denied");
             isConfirmed = false;
         }
     }

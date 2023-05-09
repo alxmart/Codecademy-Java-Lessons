@@ -1,10 +1,12 @@
-public class Reservation4 {
+package Conditionals_Control_Flow;
+
+public class Reservation {
     int guestCount;
     int restaurantCapacity;
     boolean isRestaurantOpen;
     boolean isConfirmed;
 
-    public Reservation4(int count, int capacity, boolean open) {
+    public Reservation(int count, int capacity, boolean open) {
         if (count < 1 || count > 8) {
             System.out.println("Invalid reservation!");
         }
@@ -15,16 +17,15 @@ public class Reservation4 {
 
     public void confirmReservation() {
         if (restaurantCapacity >= guestCount && isRestaurantOpen) {
-            System.out.println("Reservation confirmed");
+            System.out.println("Conditionals_Control_Flow.Reservation confirmed");
             isConfirmed = true;
         } else {
-            System.out.println("Reservation denied");
+            System.out.println("Conditionals_Control_Flow.Reservation denied");
             isConfirmed = false;
         }
     }
 
     public void informUser() {
-        // Write conditional here
         if (!isConfirmed) {
             System.out.println("Unable to confirm reservation, please contact restaurant.");
         } else {
@@ -33,10 +34,8 @@ public class Reservation4 {
     }
 
     public static void main(String[] args) {
-
-        Reservation4 partyOfThree = new Reservation4(3, 12, true);
-        Reservation4 partyOfFour = new Reservation4(4, 3, true);
-
+        Reservation partyOfThree = new Reservation(3, 12, true);
+        Reservation partyOfFour = new Reservation(4, 3, true);
         partyOfThree.confirmReservation();
         partyOfThree.informUser();
         partyOfFour.confirmReservation();
