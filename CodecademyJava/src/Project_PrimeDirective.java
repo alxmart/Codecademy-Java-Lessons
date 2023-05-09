@@ -4,7 +4,6 @@ import java.util.ArrayList;
 class Project_PrimeDirective {
 
     // Add your methods here:
-
     public boolean isPrime(int number){
 
         if (number == 2) {
@@ -19,7 +18,6 @@ class Project_PrimeDirective {
                 return false;
             }
         }
-
         return true;
     }
 
@@ -35,7 +33,6 @@ class Project_PrimeDirective {
         }
         return primes;
     }
-
 
     public static void main(String[] args) {
 
