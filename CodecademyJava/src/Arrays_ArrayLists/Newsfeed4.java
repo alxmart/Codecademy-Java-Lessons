@@ -1,4 +1,4 @@
-import java.util.Arrays;
+package Arrays_ArrayLists;
 
 public class Newsfeed4 {
 

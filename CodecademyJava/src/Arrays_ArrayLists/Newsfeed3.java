@@ -1,4 +1,4 @@
-// import the Arrays package here:
+package Arrays_ArrayLists;// import the Arrays package here:
 import java.util.Arrays;
 
 public class Newsfeed3 {

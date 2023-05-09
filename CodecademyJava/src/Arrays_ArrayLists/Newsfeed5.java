@@ -1,3 +1,5 @@
+package Arrays_ArrayLists;
+
 import java.util.Arrays;
 
 public class Newsfeed5 {
