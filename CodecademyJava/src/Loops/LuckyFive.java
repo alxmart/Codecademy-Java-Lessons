@@ -1,4 +1,4 @@
-// Importing the Random library
+package Loops;// Importing the Random library
 import java.util.Random;
 
 public class LuckyFive {
