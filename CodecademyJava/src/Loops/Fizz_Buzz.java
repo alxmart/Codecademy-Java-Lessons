@@ -1,3 +1,5 @@
+package Loops;
+
 public class Fizz_Buzz {
 
     public static void main(String[] args) {

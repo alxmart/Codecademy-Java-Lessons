@@ -38,10 +38,7 @@ public class Question {
 
     boolean public void isCorrect() {
 
-
-
 }
-
 
 //=================================================================
 //   AndroidOS.java
@@ -174,6 +171,5 @@ public class AndroidOS {
         answerThree: "Todd"
         correctAnswerIndex: 2
 //============================================================================
-
 
  */
