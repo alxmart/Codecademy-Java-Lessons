@@ -1,3 +1,5 @@
+package Variables;
+
 public class Project_MadLibs {
     /*
     This program generates a mad libbed story.

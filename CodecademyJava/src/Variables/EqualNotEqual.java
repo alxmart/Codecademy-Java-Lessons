@@ -1,3 +1,5 @@
+package Variables;
+
 public class EqualNotEqual {
     public static void main(String[] args) {
         int songsA = 9;

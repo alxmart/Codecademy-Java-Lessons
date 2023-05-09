@@ -1,3 +1,5 @@
+package Variables;
+
 public class SongEquals {
     public static void main(String[] args){
 

@@ -1,3 +1,5 @@
+package Variables;
+
 public class PlusAndMinus {
     public static void main(String[] args) {
         int zebrasInZoo = 8;

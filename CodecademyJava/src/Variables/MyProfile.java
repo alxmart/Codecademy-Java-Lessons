@@ -1,3 +1,5 @@
+package Variables;
+
 public class MyProfile {
     public static void main(String[] args) {
 

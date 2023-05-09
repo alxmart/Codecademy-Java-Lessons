@@ -1,3 +1,5 @@
+package Variables;
+
 public class MarketShare {
 
     public static void main(String[] args) {

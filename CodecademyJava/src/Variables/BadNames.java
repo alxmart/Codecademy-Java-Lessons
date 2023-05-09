@@ -1,3 +1,5 @@
+package Variables;
+
 public class BadNames {
     public static void main(String[] args) {
         String firstName = "Samira";

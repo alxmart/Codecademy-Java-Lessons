@@ -1,3 +1,5 @@
+package Variables;
+
 //This is the class declaration
 public class CountComment {
     //This is the main method that runs when you compile

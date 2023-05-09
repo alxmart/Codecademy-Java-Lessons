@@ -1,3 +1,5 @@
+package Variables;
+
 public class Project_MathMagic {
     public static void main(String[] args) {
 

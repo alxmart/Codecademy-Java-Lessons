@@ -1,3 +1,5 @@
+package Variables;
+
 public class GuessingGame {
     public static void main(String[] args) {
         int mystery1 = 8 + 6;

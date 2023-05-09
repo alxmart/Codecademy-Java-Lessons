@@ -1,3 +1,5 @@
+package Variables;
+
 public class MultiAndDivide {
     public static void main(String[] args) {
         double subtotal = 30;

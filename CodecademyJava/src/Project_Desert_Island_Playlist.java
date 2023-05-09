@@ -6,7 +6,7 @@ public class Project_Desert_Island_Playlist {
 
         ArrayList<String> desertIslandPlaylist = new ArrayList<String>();
 
-        desertIslandPlaylist.add("Europe - The Final Countdown");
+        desertIslandPlaylist.add("Europe - The Variables.Final Countdown");
         desertIslandPlaylist.add("Black Sabbath - Dying for love");
         desertIslandPlaylist.add("Yngwie Malmsteen - Black Star");
         desertIslandPlaylist.add("Black Sabbath - Computer God");
