@@ -8,7 +8,6 @@ public class Noodle {
     String texture = "brittle";
 
     Noodle(double lenInCent, double wthInCent, String shp,
-
            String ingr) {
         this.lengthInCentimeters = lenInCent;
         this.widthInCentimeters = wthInCent;
