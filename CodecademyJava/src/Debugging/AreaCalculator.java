@@ -11,7 +11,7 @@ public class AreaCalculator {
 
         System.out.println("Shape Area Calculator");
 
-        while(true) {
+        while (true) {
 
             System.out.println();
             System.out.println("-=-=-=-=-=-=-=-=-=-");
@@ -52,12 +52,12 @@ public class AreaCalculator {
 
     public static double area_triangle(int base, int height) {
         System.out.println();
-        int A = (base * height) * 1/2;
+        int A = (base * height) * 1 / 2;
         System.out.println("The area is " + A + ".");
         return A;
     }
 
-    public static int area_rectangle(int length, int width){
+    public static int area_rectangle(int length, int width) {
         System.out.println();
         int A = length * width;
         System.out.println("The area is " + A + ".");
