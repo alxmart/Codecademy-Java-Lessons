@@ -1,16 +1,15 @@
 package Inheritance_Polymorphism;
 
 
-public class Ramen extends Noodle {
+public class Ramen extends Noodle2 {
 
     Ramen() {
         super(30.0, 0.3, "flat",
               "wheat flour");
     }
 
-    public boolean isTasty() {
-
-        return false;
-    }
+//    public boolean isTasty() {
+//        // return false;
+//    }
 
 }
