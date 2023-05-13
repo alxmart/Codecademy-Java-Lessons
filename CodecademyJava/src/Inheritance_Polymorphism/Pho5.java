@@ -1,7 +1,6 @@
 package Inheritance_Polymorphism;
 
 class Pho5 extends Noodle5 {
-
     Pho5() {
         super(30.0, 0.64, "flat", "rice flour");
     }
