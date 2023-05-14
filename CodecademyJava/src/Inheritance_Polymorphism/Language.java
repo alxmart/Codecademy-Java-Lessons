@@ -30,12 +30,17 @@ class Language {
 
     public static void main(String[] args) {
 
-        Language english = new Language("br portuguese",
+        Language brport = new Language("br portuguese",
                 230000000,
                 "2",
                 "5");
 
-        english.getInfo();
+        brport.getInfo();
+
+        Mayan huastec = new Mayan("huastec",
+                2330000);
+
+        huastec.getInfo();
 
     }
 }
