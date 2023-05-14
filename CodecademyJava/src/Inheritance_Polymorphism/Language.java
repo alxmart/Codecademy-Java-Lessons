@@ -34,13 +34,21 @@ class Language {
                 230000000,
                 "2",
                 "5");
-
         brport.getInfo();
 
         Mayan huastec = new Mayan("huastec",
                 2330000);
-
         huastec.getInfo();
+
+        SinoTibetan mandarin = new SinoTibetan(
+                "Mandarin Chinese",
+                2330000);
+        mandarin.getInfo();
+
+        SinoTibetan burmese = new SinoTibetan(
+                "Burmese",
+                2330000);
+        burmese.getInfo();
 
     }
 }
